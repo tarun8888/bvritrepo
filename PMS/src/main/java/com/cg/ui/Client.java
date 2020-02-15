@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
+import java.util.Scanner;
 
 import com.cg.service.ProductService;
 import com.cg.service.ProductServiceImpl;
@@ -17,7 +18,7 @@ public class Client {
 		// TODO Auto-generated method stub
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
+		Scanner sc = new Scanner(System.in);
 		Product product = null;
 		ProductService productService = new ProductServiceImpl();
 		List<Product> list = null;
