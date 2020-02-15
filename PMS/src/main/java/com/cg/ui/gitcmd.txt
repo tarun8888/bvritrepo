@@ -1,0 +1,12 @@
+$ git init
+
+$ git remote add origin "https://github.com/tarun8888/bvritrepo.git"
+ 
+$ git pull origin master
+
+$ git status
+
+$ git add sample.txt
+
+$ git commit sample.txt -m "added sample"
+
