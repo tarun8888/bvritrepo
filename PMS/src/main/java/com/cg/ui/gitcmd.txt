@@ -10,3 +10,5 @@ $ git add sample.txt
 
 $ git commit sample.txt -m "added sample"
 
+$ git push -u origin master
+
